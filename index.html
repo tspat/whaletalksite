@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--  ****  -->
+  <!--  Copy From Here:  -->
+  <!-- Include JQuery for Semantic UI -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!-- Include Semantic UI CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+  <!-- Include Semantic UI JS -->
+  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+  <!--  To Here  -->
+  <!--  ****  -->
+  <!-- User JS & CSS -->
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+  <title>Whale Talk</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="ui container">
+    <h1 class="ui center aligned icon header blue">
+      <img class="ui fluid image" src="https://st.depositphotos.com/2664341/3562/v/450/depositphotos_35628265-stock-illustration-whale-cartoon.jpg">
+      Whale Talk
+    </h1>
+  </div>
+  <!-- End Header -->
+  <div class="ui container">
+    <div class="ui raised center aligned segment blue">
+      <div class="ui icon input">
+        <input id ="english" value=""  name="english" type="text" placeholder="What to say?">
+        <button class="ui icon button">
+          <i id="button" class="heart icon"></i>
+        </button>
+      </div>
+      <div class="ui center aligned segment blue">
+        <h1 id="whaletalk"></h1>
+      </div>
+      <button id="reset" class="ui button">
+        Reset
+      </button>
+  </div>
+  
+</body>
+
+</html>
