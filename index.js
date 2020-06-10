@@ -33,6 +33,7 @@ let whaleTalk = () => {
 let reset = () => {
   output.innerHTML = ''
   output.style.display = ''
+  this.document.getElementById('english').value = "";
 };
 
 button.onclick = whaleTalk;
